@@ -1,0 +1,4 @@
+[ libNPMugast.so ]
+# List of selected classes
+class TMugastData
+header TMugastData.h
