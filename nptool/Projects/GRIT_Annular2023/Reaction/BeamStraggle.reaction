@@ -1,0 +1,14 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Beam
+ Particle= 132Sn
+ ExcitationEnergy= 0 MeV
+ Energy= 660 MeV
+ SigmaEnergy= 0.0  MeV
+ SigmaThetaX= 0.0 deg
+ SigmaPhiY= 0.0 deg
+ SigmaX= 2.0 millimeter
+ SigmaY= 2.0 millimeter
+ MeanThetaX= 0 deg
+ MeanPhiY= 0 deg
+ MeanX= +0.00 millimeter
+ MeanY= +0.00 millimeter

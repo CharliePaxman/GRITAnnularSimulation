@@ -1,0 +1,69 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%1 Endcap Back
+Mugast Trapezoid
+ DetectorNumber = 1
+ X128_Y128= 55.338 14.346 146.501 mm
+ X1_Y128= 55.338 -14.346 146.501 mm
+ X128_Y1= 138.518 48.726 69.237 mm
+ X1_Y1=  138.519 -48.717 69.236 mm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%2
+Mugast Trapezoid
+ DetectorNumber = 2
+ X128_Y128= 28.986 49.274 146.501 mm
+ X1_Y128= 49.215 29.045 146.501 mm
+ X128_Y1= 63.492 132.401 69.237 mm
+ X1_Y1=  132.395 63.500 69.236 mm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%3
+Mugast Trapezoid
+ DetectorNumber = 3
+ X128_Y128= -14.346 55.338 146.501 mm
+ X1_Y128= 14.263 55.338 146.501 mm
+ X128_Y1= -48.726 138.518 69.237 mm
+ X1_Y1=  48.717 138.519 69.236 mm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%4
+Mugast Trapezoid
+ DetectorNumber = 4
+ X128_Y128= -49.274 28.986 146.501 mm
+ X1_Y128= -29.045 49.215 146.501 mm
+ X128_Y1= -132.401 63.492 69.237 mm
+ X1_Y1=  -63.500 132.395 69.236 mm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+Mugast Trapezoid
+ DetectorNumber = 5
+ X128_Y128= -55.338 -14.346 146.501 mm
+ X1_Y128= -55.338 14.346 146.501 mm
+ X128_Y1= -138.518 -48.726 69.237 mm
+ X1_Y1=  -138.519 48.717 69.236 mm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%6
+Mugast Trapezoid
+ DetectorNumber = 6
+ X128_Y128= -28.986 -49.274 146.501 mm
+ X1_Y128= -49.215 -29.045 146.501 mm
+ X128_Y1= -63.492 -132.401 69.237 mm
+ X1_Y1=  -132.395 -63.500 69.236 mm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%7
+Mugast Trapezoid
+ DetectorNumber = 7
+ X128_Y128= 14.346 -55.338 146.501 mm
+ X1_Y128= -14.263 -55.338 146.501 mm
+ X128_Y1= 48.726 -138.518 69.237 mm
+ X1_Y1=  -48.717 -138.519 69.236 mm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%8
+Mugast Trapezoid
+ DetectorNumber = 8
+ X128_Y128= 49.274 -28.986 146.501 mm
+ X1_Y128= 29.045 -49.215 146.501 mm
+ X128_Y1= 132.401 -63.492 69.237 mm
+ X1_Y1=  63.500 -132.395 69.236 mm
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% MODULAR LEAF %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+ModularLeaf 
+  DefaultValue= -5000
+  Leafs= GATCONF_MASTER CONFDEC_AGATA T_CATS2_HF T_MUGAST_CATS2 T_MUGAST_CATS2b E_AGATA T_FAG_CATS2 T_VAMOS_AGATA T_AGATA_CATS2 T_MUGAST_VAMOS T_MUGAST_AGATA T_VAMOS_CATS2 
+%%% Leafs= GATCONF_MASTER CONFDEC_AGATA CONFDEC_VAMOS T_CATS2_HF T_MUGAST_CATS2 T_MUGAST_CATS2b EVAMOS_AGATA E_AGATA T_FAG_CATS2 T_VAMOS_AGATA T_AGATA_CATS2 TVAMOS_MUGAST_HF T_MUGAST_VAMOS T_MUGAST_AGATA T_VAMOS_CATS2 ADC1_9 ADC1_10 ADC1_11 MW_00 MW_01 MW_02 MW_03 MW_04 MW_05 MW_06 MW_07 MW_08 MW_09 MW_10 MW_11 MW_12 MW_13 MW_14 MW_15 MW_16 MW_17 MW_18 MW_19 MW_21
+  X= EVAMOS_AGATA   
+  Y= E_AGATA       
+

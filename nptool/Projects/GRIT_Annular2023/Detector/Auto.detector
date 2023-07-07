@@ -1,0 +1,43 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Target
+  THICKNESS= 8 micrometer
+  ANGLE= 0 deg
+  RADIUS= 10 mm
+  MATERIAL= CH2
+  X= +0.00 millimeter
+  Y= +0.00 millimeter
+  Z= +0.00 millimeter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Mugast Annular
+ DetectorNumber =  10
+ Center = 0.0 0.0 165 mm
+ Thickness = 0.5 mm
+ NumRing = 128
+ NumSector = 32
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Mugast Annular
+ DetectorNumber = 11
+ Center = 0.0 0.0 170 mm
+ Thickness = 1.500 mm
+ NumRing = 16
+ NumSector = 16
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Mugast Annular
+ DetectorNumber = 12
+ Center = 0.0 0.0 175 mm
+ Thickness = 1.500 mm
+ NumRing = 16
+ NumSector = 16
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Mugast Annular
+ DetectorNumber = 13
+ Center = 0.0 0.0 180 mm
+ Thickness = 3.0 mm
+ NumRing = 16
+ NumSector = 16
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ModularLeaf 
+  DefaultValue= -5000
+  Leafs= GATCONF_MASTER CONFDEC_AGATA T_CATS2_HF T_MUGAST_CATS2 T_MUGAST_CATS2b E_AGATA T_FAG_CATS2 T_VAMOS_AGATA T_AGATA_CATS2 T_MUGAST_VAMOS T_MUGAST_AGATA T_VAMOS_CATS2 
+  X= EVAMOS_AGATA   
+  Y= E_AGATA       

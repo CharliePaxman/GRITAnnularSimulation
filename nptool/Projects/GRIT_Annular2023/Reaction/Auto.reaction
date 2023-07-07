@@ -1,0 +1,25 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Beam
+ Particle= 94Kr
+ ExcitationEnergy= 0 MeV
+ Energy= 940 MeV
+ SigmaEnergy= 0.0  MeV
+ SigmaThetaX= 0.0 deg
+ SigmaPhiY= 0.0 deg
+ SigmaX= 2.0 millimeter
+ SigmaY= 2.0 millimeter
+ MeanThetaX= 0 deg
+ MeanPhiY= 0 deg
+ MeanX= +0.00 millimeter
+ MeanY= +0.00 millimeter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TwoBodyReaction
+ Beam= 94Kr
+ Target= 1H
+ Light= 3H
+ Heavy= 92Kr
+ ExcitationEnergyLight= 0.0 MeV
+ ExcitationEnergyHeavy= 0 MeV
+ CrossSectionPath= GRIT_94Krpt_swave_10MeVu_Full.txt CSR
+ ShootLight= 1
+ ShootHeavy= 0
