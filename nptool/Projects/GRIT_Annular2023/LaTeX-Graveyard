@@ -1,0 +1,631 @@
+\newpage
+
+\iffalse
+\subsection{Strip pitch - one thick detector}
+
+All simualtions in this section adhere to the following conditions:
+
+\begin{nicelist}{Conditions}
+\item Beam energy = 8 MeV/u
+\item Silicon wafer thickness = 5000 um
+\item Number of sectors = 32
+\end{nicelist}
+
+\newpage
+\subsubsection{Reaction: (p,p)}
+
+For (p,p) reactions, the detection efficiency drops significantly with increased number of rings. In the simulated conditions described above, the maximum number of strips before fits fail in all cases is 64.
+
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_fits_47K47K.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XStrp_47K47K.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XTarg_47K47K.pdf}
+    \end{subfigure}
+\end{figure}
+
+\newpage
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_fits_94Kr94Kr.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XStrp_94Kr94Kr.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XTarg_94Kr94Kr.pdf}
+    \end{subfigure}
+\end{figure}
+
+\newpage
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_fits_132Sn132Sn.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XStrp_132Sn132Sn.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XTarg_132Sn132Sn.pdf}
+    \end{subfigure}
+\end{figure}
+
+
+%=============================================================
+
+
+\newpage
+\subsubsection{Reaction: (p,d)}
+
+For (p,d) reactions, no plateau is reached before 128 ring strips.
+
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_fits_47K46K.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XStrp_47K46K.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XTarg_47K46K.pdf}
+    \end{subfigure}
+\end{figure}
+
+\newpage
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_fits_94Kr93Kr.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XStrp_94Kr93Kr.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XTarg_94Kr93Kr.pdf}
+    \end{subfigure}
+    \caption{especially poor peak shape}
+\end{figure}
+
+\newpage
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_fits_132Sn131Sn.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XStrp_132Sn131Sn.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XTarg_132Sn131Sn.pdf}
+    \end{subfigure}
+\end{figure}
+
+
+%=============================================================
+
+
+\newpage
+\subsubsection{Reaction: (p,t)}
+
+For (p,t) reactions, plateus are reached at increasing numbers of strips with heavier beam isotopes (is this related?)
+
+47K(p,t) - 32 strips
+94Kr(p,t) - 96 strips
+132Sn(p,t) - no plateau reached
+
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_fits_47K45K.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XStrp_47K45K.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XTarg_47K45K.pdf}
+    \end{subfigure}
+\end{figure}
+
+\newpage
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{\linewidth}
+        \centering
+          \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_fits_94Kr92Kr.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XStrp_94Kr92Kr.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XTarg_94Kr92Kr.pdf}
+    \end{subfigure}
+    \caption{peak off-centre, implying leaking punch-through events}
+\end{figure}
+
+\newpage
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_fits_132Sn130Sn.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XStrp_132Sn130Sn.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XTarg_132Sn130Sn.pdf}
+    \end{subfigure}
+\end{figure}
+
+
+
+
+
+
+%=============================================================
+
+
+\newpage
+\subsubsection{Reaction: (p,a)}
+
+For (p,a) reactions, the peak shape is generally much worse, ((due to the increased incidence of punch-through events not being correctly identified and removed??))
+
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_fits_47K44Ar.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XStrp_47K44Ar.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XTarg_47K44Ar.pdf}
+    \end{subfigure}
+\end{figure}
+
+\newpage
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{\linewidth}
+        \centering
+         \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_fits_94Kr91Br.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XStrp_94Kr91Br.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XTarg_94Kr91Br.pdf}
+    \end{subfigure}
+    \caption{especially poor peak shape}
+\end{figure}
+
+\newpage
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_fits_132Sn129In.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XStrp_132Sn129In.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/Feb2023/stripPitch_XTarg_132Sn129In.pdf}
+    \end{subfigure}
+\end{figure}
+
+\fi
+
+
+\subsection{Strip pitch - thin & thick}
+
+All simulations in this section adhere to the following conditions:
+
+\begin{nicelist}{Conditions}
+%\item Beam energy = 8 MeV/u
+\item First silicon wafer thickness = 500 um
+\item Second silicon wafer thickness = 1500 um
+\item Number of sectors = 32
+\end{nicelist}
+
+
+\subsubsection{Reaction: (d,p)}
+
+For (d,p) reactions, ...
+
+\begin{figure}[p]
+  \centering
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_fits_47K2H-1H48K_1p3_sp2wave.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_XStrp_47K2H-1H48K_1p3_sp2wave.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_XTarg_47K2H-1H48K_1p3_sp2wave.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_mult_47K2H-1H48K_1p3_sp2wave.pdf}
+    \end{subfigure}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_fits_94Kr2H-1H95Kr_2s1wave.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_XStrp_94Kr2H-1H95Kr_2s1wave.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_XTarg_94Kr2H-1H95Kr_2s1wave.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_mult_94Kr2H-1H95Kr_2s1wave.pdf}
+    \end{subfigure}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_fits_132Sn2H-1H133Sn_2p3wave.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_XStrp_132Sn2H-1H133Sn_2p3wave.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_XTarg_132Sn2H-1H133Sn_2p3wave.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_mult_132Sn2H-1H133Sn_2p3wave.pdf}
+    \end{subfigure}
+\end{figure}
+
+
+
+\clearpage
+
+
+\subsubsection{Reaction: (d,t)}
+
+For (d,t) reactions, ...
+
+\begin{figure}[p]
+  \centering
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_fits_47K2H-3H46K_1s1_sp1wave.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_XStrp_47K2H-3H46K_1s1_sp1wave.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_XTarg_47K2H-3H46K_1s1_sp1wave.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_mult_47K2H-3H46K_1s1_sp1wave.pdf}
+    \end{subfigure}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_fits_94Kr2H-3H93Kr_1p1wave.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_XStrp_94Kr2H-3H93Kr_1p1wave.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_XTarg_94Kr2H-3H93Kr_1p1wave.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_mult_94Kr2H-3H93Kr_1p1wave.pdf}
+    \end{subfigure}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_fits_132Sn2H-3H131Sn_2s1wave.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_XStrp_132Sn2H-3H131Sn_2s1wave.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_XTarg_132Sn2H-3H131Sn_2s1wave.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/stripPitch_mult_132Sn2H-3H131Sn_2s1wave.pdf}
+    \end{subfigure}
+\end{figure}
+
+
+
+
+
+\clearpage
+
+
+\subsubsection{Reaction: (p,d)}
+
+For (p,d) reactions, interesting effect of layer requirements.
+
+First set, requite only no puchthrough...
+
+\begin{figure}[p]
+  \centering
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch/stripPitch_fits_47K1H-2H46K_0d5_sp3wave.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch/stripPitch_XStrp_47K1H-2H46K_0d5_sp3wave.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch/stripPitch_XTarg_47K1H-2H46K_0d5_sp3wave.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch/stripPitch_mult_47K1H-2H46K_0d5_sp3wave.pdf}
+    \end{subfigure}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch/stripPitch_fits_94Kr1H-2H93Kr_1p1wave.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch/stripPitch_XStrp_94Kr1H-2H93Kr_1p1wave.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch/stripPitch_XTarg_94Kr1H-2H93Kr_1p1wave.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch/stripPitch_mult_94Kr1H-2H93Kr_1p1wave.pdf}
+    \end{subfigure}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch/stripPitch_fits_132Sn1H-2H131Sn_2s1wave.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch/stripPitch_XStrp_132Sn1H-2H131Sn_2s1wave.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch/stripPitch_XTarg_132Sn1H-2H131Sn_2s1wave.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch/stripPitch_mult_132Sn1H-2H131Sn_2s1wave.pdf}
+    \end{subfigure}
+\end{figure}
+
+\clearpage
+
+Second set, requite no punchthrough, and REQUIRE hit in backing layer...
+
+\begin{figure}[p]
+  \centering
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_Need11/stripPitch_fits_47K1H-2H46K_0d5_sp3wave.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_Need11/stripPitch_XStrp_47K1H-2H46K_0d5_sp3wave.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_Need11/stripPitch_XTarg_47K1H-2H46K_0d5_sp3wave.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_Need11/stripPitch_mult_47K1H-2H46K_0d5_sp3wave.pdf}
+    \end{subfigure}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_Need11/stripPitch_fits_94Kr1H-2H93Kr_1p1wave.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_Need11/stripPitch_XStrp_94Kr1H-2H93Kr_1p1wave.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_Need11/stripPitch_XTarg_94Kr1H-2H93Kr_1p1wave.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_Need11/stripPitch_mult_94Kr1H-2H93Kr_1p1wave.pdf}
+    \end{subfigure}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_Need11/stripPitch_fits_132Sn1H-2H131Sn_2s1wave.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_Need11/stripPitch_XStrp_132Sn1H-2H131Sn_2s1wave.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_Need11/stripPitch_XTarg_132Sn1H-2H131Sn_2s1wave.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_Need11/stripPitch_mult_132Sn1H-2H131Sn_2s1wave.pdf}
+    \end{subfigure}
+\end{figure}
+
+\clearpage
+
+Final set, require no punchthrough and NO HIT IN BACKING LAYER
+
+\begin{figure}[p]
+  \centering
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_No11/stripPitch_fits_47K1H-2H46K_0d5_sp3wave.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_No11/stripPitch_XStrp_47K1H-2H46K_0d5_sp3wave.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_No11/stripPitch_XTarg_47K1H-2H46K_0d5_sp3wave.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_No11/stripPitch_mult_47K1H-2H46K_0d5_sp3wave.pdf}
+    \end{subfigure}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_No11/stripPitch_fits_94Kr1H-2H93Kr_1p1wave.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_No11/stripPitch_XStrp_94Kr1H-2H93Kr_1p1wave.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_No11/stripPitch_XTarg_94Kr1H-2H93Kr_1p1wave.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_No11/stripPitch_mult_94Kr1H-2H93Kr_1p1wave.pdf}
+    \end{subfigure}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_No11/stripPitch_fits_132Sn1H-2H131Sn_2s1wave.pdf}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_No11/stripPitch_XStrp_132Sn1H-2H131Sn_2s1wave.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_No11/stripPitch_XTarg_132Sn1H-2H131Sn_2s1wave.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.9\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagesCJP/ThinThick1616/pd_NoPunch_No11/stripPitch_mult_132Sn1H-2H131Sn_2s1wave.pdf}
+    \end{subfigure}
+\end{figure}
